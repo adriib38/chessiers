@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fila > div {
+    width: 70px;
+    height: 70px;
+}
+
+.negra {
+    background-color: #652A18;
+}
+
+.blanca {
+    background-color: #CCCC92;
+}
+
+.tablero {
+    display: inline-flex;
+
+    box-shadow: 6px 6px 3px #000000;
+    border: 3px solid black;
+}
+
+i { 
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.equipo-blanco {
+    color: rgb(255, 20, 138);
+}
+
+.equipo-negro {
+    color: rgb(56, 76, 255);
+}
+
+.blanca:hover,
+.negra:hover {
+    transform: scale(0.9); 
+    transition: all .1s ease-in-out; 
+}
+
+#container-accesos a {
+    text-decoration: none;
+    outline: none;
+}
+
+
+a {
+    color: inherit;
+}
+
+#container-accesos {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(145, 137, 137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    max-width: 600px;
+    min-width: 400px;
+    border-radius: 4px;
+}
+
+#container-accesos > div {
+    text-decoration: none;
+    font-size: 2.3rem;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#container-accesos > .ajedrez {
+    background-color: #CCCC92;
+    color: #652A18;
+}
+
+#container-accesos > .damas {
+    background-color: #652A18;
+    color: #CCCC92;
+}
+
+.tablero i {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.tablero {
+    float: left;
+    margin-right: 30px;
+}
+
+.content {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.user-card {
+    font-size: 1.2rem;
+    display: flex;
+    height: 65px;
+    width: 200px;
+    background-color: rgba(154, 238, 255, 0.586);
+    overflow-y: auto;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px #652A18 solid;
+}
+
+.user-card:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+    
+    transition: all .2s ease-in-out; 
+}
+
+.user-card .nivel {
+    color: rgb(201, 85, 255);
+    font-size: .2;
+}
+
+.user-card p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.blanco { color: white; }
