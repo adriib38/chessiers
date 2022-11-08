@@ -4,6 +4,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body { background-color: #02020260; }
+
 .fila > div {
     width: 70px;
     height: 70px;
@@ -49,7 +51,6 @@ i {
     outline: none;
 }
 
-
 a {
     color: inherit;
 }
@@ -60,7 +61,8 @@ a {
     left: 20%;
     width: 50%;
     height: 50%;
-    background-color: rgb(145, 137, 137);
+    background: rgb(35,38,43);
+    background: linear-gradient(42deg, rgba(35,38,43,1) 1%, rgba(145,137,137,1) 92%); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,6 +80,12 @@ a {
     background-color: blue;
     margin-left: 10px;
     border-radius: 3px;
+}
+
+#container-accesos > div:hover {
+    transform: scale(.95);
+    transition: all .1s ease-in-out;
+
 }
 
 #container-accesos > .ajedrez {
@@ -112,7 +120,6 @@ a {
     background-color: rgba(154, 238, 255, 0.586);
     overflow-y: auto;
     border-radius: 3px;
-    font-family: Arial, Helvetica, sans-serif;
     border: 2px #652A18 solid;
 }
 
@@ -124,7 +131,7 @@ a {
 }
 
 .user-card .nivel {
-    color: rgb(201, 85, 255);
+    color: rgb(21, 0, 181);
     font-size: .2;
 }
 
@@ -184,6 +191,20 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 1.5em;
 }
 
 .blanco { color: white; }
