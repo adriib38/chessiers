@@ -2,6 +2,10 @@
 # Chessiers
 
 Maqueta web del juego ajedrez y damas modernos.
+
+Online - [Chessiers](https://chessiers.vercel.app/)
+
+Proyecto - [GitHub](https://github.com/adriib38/chessiers)
 ## Referencias de colores
 
 | Color             | Hex                                                                |
@@ -25,8 +29,6 @@ Adrián Benítez - [@adriib38](https://github.com/adriib38)
 ## Screenshots
 
 ![App Screenshot](https://snipboard.io/t3iKd0.jpg)
-
-
 
 
 ![Logo](https://snipboard.io/nDE5FS.jpg)
